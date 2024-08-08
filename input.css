@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+    @apply bg-slate-100
+}
+
+input[type=text] {
+  font-weight: bold;
+  color: hsl(202, 55%, 16%);
+}
+
+
+
+.result-side {
+  border-radius: 0px 20px 20px 15%;
+}
+
+.wrap {
+   border-radius: 20px;
+}
+
+.wrap .form-side {
+  border-radius: 20px;
+}
+
+.border-t-thin.border-slate-500 {
+  border-top: .3px solid hsl(200, 26%, 54%);
+}
+
+.input-group:focus-within {
+  border: 1px solid hsl(61, 70%, 52%);
+  background: hsl(61, 70%, 52%);
+}
+
+.invalid.input-group {
+  border: solid 1px rgb(235, 19, 19);
+  background-color: rgb(223, 37, 37);
+}
+
+.invalid.input-group span {
+  color: white;
+}
+
+.error {
+  color: rgb(223, 37, 37);
+  font-size: 13px;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .result-side {
+    border-radius: 0;
+  }
+}

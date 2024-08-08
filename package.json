@@ -1,0 +1,30 @@
+{
+  "name": "mortgage-repayment-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./css/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salma-3/mortgage-repayment-calculator.git"
+  },
+  "keywords": [
+    "mentor",
+    "challenge",
+    "tailwind"
+  ],
+  "author": "Salma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salma-3/mortgage-repayment-calculator/issues"
+  },
+  "homepage": "https://github.com/Salma-3/mortgage-repayment-calculator#readme",
+  "dependencies": {
+    "tailwindcss": "^3.4.7",
+    "zod": "^3.23.8"
+  }
+}
